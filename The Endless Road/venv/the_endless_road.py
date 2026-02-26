@@ -1,3 +1,4 @@
+
 """
 ╔══════════════════════════════════════════════════════════════════╗
 ║              THE ENDLESS ROAD - A Text Adventure               ║
@@ -86,7 +87,6 @@ def create_player():
         "survived_nights": 0,
         "cave_turns": 0,     # Tracks turns inside the cave (max = 3!)
         "in_cave": False,
-        "traitor_talked": False,
         "traitor_invited": False,
         "game_over": False,
         "won": False,
